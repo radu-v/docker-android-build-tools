@@ -1,4 +1,4 @@
-FROM library/ubuntu:17.10
+FROM library/ubuntu:19.04
 LABEL Maintainer denvit <denys+docker@denv.it>
 RUN apt update
 RUN apt install -y git openjdk-8-jdk git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip python bc liblz4-tool vboot-utils vim u-boot-tools device-tree-compiler wget zsh tmux
