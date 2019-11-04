@@ -1,0 +1,22 @@
+[user]
+	name = Radu Vasilascu
+	email = glx33807@gmail.com
+
+[alias]
+	ada = add -A :/
+	ci = commit
+	lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate
+  	co = checkout
+	cob = checkout -b
+	di = diff
+	dis = diff --staged
+	st = status
+	f = fetch origin --progress
+	ff = merge --ff-only
+	r = rebase @{u}
+	showlist = diff-tree --no-commit-id --name-only -r
+   unstage = reset --
+	discard = checkout --
+
+[color]
+	ui = true
